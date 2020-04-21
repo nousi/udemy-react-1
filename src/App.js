@@ -4,12 +4,8 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <p>
-          Edit <code>src/App.js</code> ああああああ.
-        </p>
-      </header>
+    <div>
+      <h1>ここがタイトル</h1>
     </div>
   );
 }
