@@ -4,7 +4,8 @@ import './App.css';
 function App() {
   return (
     <div>
-      <h1>ここがタイトル</h1>
+      <h1 className="foo">ここがタイトル</h1>
+      <input type="text" onClick={() => {console.log("OK  ")}} />
     </div>
   );
 }
