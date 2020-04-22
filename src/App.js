@@ -1,12 +1,27 @@
 import React from 'react';
-import './App.css';
 
-function App() {
-  return (
+// class App extends Conponent {
+//   return (
+//     <div>
+//       <h1 className="foo">ここがタイトル</h1>
+//       <input type="text" onClick={() => {console.log("OK  ")}} />
+//     </div>
+//   );
+// }
+
+const App = () => {
+  return(
     <div>
-      <h1>ここがタイトル</h1>
+      <Cat />
+      <Cat />
+      <Cat />
+      <Cat />
+      <Cat />
     </div>
-  );
+  )
 }
 
+const Cat = () => {
+  return <div>Meow!</div>
+}
 export default App;
